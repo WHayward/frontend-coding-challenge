@@ -1,0 +1,130 @@
+/* CSS RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY STYLES */
+.clear {
+	clear:both;
+}
+#container {
+	margin: 0 auto;
+	width:600px;
+}
+#header {
+	float:left;
+	width:600px;
+	margin-top:20px;
+	background: -webkit-linear-gradient(#0098fe, #006fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0098fe, #006fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0098fe, #006fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0098fe, #006fff); /* Standard syntax (must be last) */
+}
+#header IMG {
+	border:none;
+	margin:0;
+	padding: 0;
+	float:left;
+}
+#content {
+	color:#000000;
+	background:#F5F5F5;
+	padding:25px 30px 50px 25px;
+	
+}
+#content P {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
+	font-size:16px; 
+	line-height:20px;
+	margin-bottom:20px;
+}
+#content #stan_sig {
+	margin:50px 0 0 0;
+}
+.bulletproof_button_1 A {
+	background-color:#0195ff;
+	border-radius:4px;
+	color:#ffffff;
+	display:inline-block;
+	line-height:45px;
+	text-align:center;
+	text-decoration:none;
+	width:220px;
+	-webkit-text-size-adjust:none;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size:16px;
+}
+.bulletproof_button_1 A:HOVER {
+	background: #0188e2;
+	-moz-transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+#content IMG {
+	border:none;
+}
+#footer {
+	padding:15px 30px;
+	background:#1E1E1E;
+}
+#footer P {
+	color:#5C5C5C;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	margin-bottom:20px;
+}
+#footer A {
+	color:#949494;
+	text-decoration: none;
+}
+#footer A:HOVER {
+	text-decoration: underline;
+}
